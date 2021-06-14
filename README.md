@@ -1,15 +1,15 @@
-# laravel-nginx-mysql-example-en
-This is an example of how to use docoker-compose to create laravel/nginx/mysql environment.  
-Please see [this file](https://github.com/lechatthecat/laravel-nginx-mysql-example-en/blob/master/docker-compose.yml) for more detail.
+# docker-laravel-nginx-mysql-example
+Este é um exemplo de como usar docker-compose para criar um ambiente laravel / nginx / mysql.
 
-## How to use
-Run this program as follows:
+
+## Como usar
+Execute este programa como segue:
 ```
-$ git clone https://github.com/lechatthecat/laravel-nginx-mysql-example-en.git
-$ cd laravel-nginx-mysql-example
+$ git clone https://github.com/pedebodes/docker_laravel.git
+$ cd docker_laravel
 $ docker-compose up -d --build
 $ docker-compose exec laravel ash
-# In the laravel container:
+# No diretorio laravel:
 $ sh -x ../laravel_build.sh
 ```
 And then see http://localhost:10080
